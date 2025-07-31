@@ -261,6 +261,12 @@
       transition: all 0.3s;
     }
 
+    @media screen and (max-width: 768px) {
+  .cta-button {
+    padding-bottom: 20px; 
+  }
+}
+
     .cta-button::after {
       pointer-events: none;
       content: "";
