@@ -261,9 +261,9 @@
       transition: all 0.3s;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
   .cta-button {
-    padding-bottom: 20px; 
+    padding-bottom: 20px 40px; 
   }
 }
 
