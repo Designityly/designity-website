@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Designity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="designity-logo.png">
+</head>
+<body>
+  <div class="intro-screen">
+    <img src="designity-logo.png" alt="Designity Logo" class="logo"/>
+    <h1 class="brand-name">Designity</h1>
+  </div>
+
+  <div id="main-content">
+    <header>
+      <h1>Where Creative Vision Becomes Code.</h1>
+      <p>Custom, high-performance websites designed to elevate your brand. We combine stunning design with clean code to craft digital experiences that stand out.</p>
+      <a href="#contact"><button  class="cta-button">Start Your Project</button></a>
+    </header>
+
+    <section>
+      <h2>From Design to Deployment — We Build It All.</h2>
+      <p class="section-sub">
+        Our full-stack expertise means your site won't just look beautiful — it'll run like a dream.
+      </p>
+      <div class="features">
+        <div class="feature-box">
+          <h3>🎨 Custom Web Design</h3>
+          <p>Unique, on-brand visuals crafted to resonate with your target audience.</p>
+        </div>
+        <div class="feature-box">
+          <h3>💻 Full-Stack Development</h3>
+          <p>Responsive, scalable code built using modern stacks: HTML, CSS, JS and Node.js.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🚀 Launch & Optimization</h3>
+          <p>Performance tuning, SEO setup, and growth insights from Day 1.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="scene">
+    <section id="faceSection" style="display: flex; background-color: gray; border-radius: 30px; margin-left: 10vw; margin-right: 10vw; align-items: center;">
+      <div style="background-color: black; border-radius: 30px; padding: 10px 30px;">
+        <p><h2>Who we are</h2>
+          &lt;!DOCTYPE html&gt;<br>  &nbsp;&nbsp;&nbsp; &lt;html lang="en"&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt; <br>
+          At Designity, we're not your typical web design agency. We're a team of 15-year-olds fueled by raw talent, relentless curiosity, and the kind of hustle that only comes from chasing big dreams. We might be young, but our vision is anything but small. We believe in starting where we are and giving everything we've got to help people turn their ambitions into achievements,whether it's building a brand from scratch or creating a digital presence that truly speaks. For us, every pixel is a chance to uplift someone's goals. We design with purpose, we work with heart, and we strive together. Because when you aim high, age is just a number.
+          <br> &lt;/body&gt;
+        </p>
+        <!-- <button class="demo-button">
+          Watch Demo
+        </button> -->
+      </div>
+    </section>
+    </div>
+
+    <section>
+      <h2>Our Tech Stack</h2>
+      <div class="tech-stack">
+        <div class="tech-badge">Next.js</div>
+        <div class="tech-badge">Node.js</div>
+        <div class="tech-badge">HTML5</div>
+        <div class="tech-badge">CSS3</div>
+        <div class="tech-badge">Tailwind CSS</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="accordion" style="background-color: none; border-radius: 40px;">
+            <details>
+                <summary class="accordion-title">What kind of websites do you build?</summary>
+                <p class="accordion-content">We craft everything from sleek portfolio sites and high-converting e-commerce stores to robust corporate platforms. Whether you're launching a brand or leveling up an existing business, we've got you covered.</p>
+            </details>
+            <details>
+                <summary class="accordion-title">How long does the process take?</summary>
+                <p class="accordion-content">Most projects take 1-3 weeks from kick-off to launch, depending on complexity. We'll give you a tailored timeline upfront, and keep you in the loop every step of the way.</p>
+            </details>
+            <details>
+                <summary class="accordion-title">Can I be involved in the design process?</summary>
+                <p class="accordion-content">Absolutely! Collaboration is key. We'll gather your preferences, brand assets, and feedback at every major milestone to make sure your site truly reflects your vision.</p>
+            </details>
+            <details>
+                <summary class="accordion-title" style="border-radius: 12px;">Will my website work on mobile devices?</summary>
+                <p class="accordion-content">Yes! Every site we design is mobile-responsive, meaning it looks stunning and functions perfectly on phones, tablets, and desktops.</p>
+            </details>
+            <details>
+                <summary class="accordion-title" style="border-radius: 12px;">What kind of support do you offer after launch?</summary>
+                <p class="accordion-content">Once your website is live, we don't just disappear. We offer flexible maintenance plans that cover updates, performance checks, backups, and technical fixes. Think of it as your digital peace of mind—because a great website deserves ongoing care.</p>
+            </details>
+        </div>
+      </section>
+
+
+    <section id="contact">
+      <h2>Let's Build Something Worth Clicking</h2>
+      <p class="section-sub">
+        Ready for a website that converts visitors into clients? Tell us your vision, and we'll bring it to life, line by line.
+      </p>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="34ea6781-5938-4402-891b-c09bcb178c74">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" placeholder="Project Goals" rows="5" required></textarea>
+        <button class="cta-button" type="submit">Send Request</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Designity. All rights reserved. | Built with Vision + Code.</p>
+    </footer>
+</div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    document.querySelector(".intro-screen").style.transform = "translateY(-100%)";
+    document.querySelector(".intro-screen").style.opacity = "0";
+
+    // Optional: Remove the intro screen from DOM after animation
+    setTimeout(() => {
+      document.querySelector(".intro-screen").remove();
+    }, 1000);
+
+    // Lock upward scroll (by jumping to top of main content)
+    document.querySelector(".main-content").scrollIntoView({ behavior: "instant" });
+  }, 2500); // Delay before exit (adjust as needed)
+});
+
+
+    const section = document.getElementById('faceSection');
+
+document.addEventListener('mousemove', (e) => {
+  const rect = section.getBoundingClientRect();
+  const centerX = rect.left + rect.width / 2;
+  const centerY = rect.top + rect.height / 2;
+
+  const deltaX = e.clientX - centerX;
+  const deltaY = e.clientY - centerY;
+
+  const rotateY = deltaX / 60;
+  const rotateX = -deltaY / 60;
+
+  section.style.transform = `translateZ(40px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+});
+
+
+document.querySelectorAll('.accordion-header').forEach(header => {
+  header.addEventListener('click', () => {
+    header.parentElement.classList.toggle('open');
+  });
+});
+
+  /*scrolling animation*/
+
+  const box = document.querySelector('.tech-stack');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    observer.observe(box);
+  </script>
+</body>
+</html>
